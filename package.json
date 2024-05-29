@@ -13,14 +13,17 @@
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
+  "type": "module",
   "devDependencies": {},
   "dependencies": {
+    "@types/node": "^20.12.12",
     "@typescript-eslint/eslint-plugin": "^7.11.0",
     "@typescript-eslint/parser": "^7.11.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-plugin-import": "^2.29.1",
+    "tsx": "^4.11.0",
     "typescript": "^5.4.5"
   }
 }
