@@ -10,7 +10,11 @@
   },
   "author": "Arne Seib",
   "scripts": {
-    "lint": "eslint src",
+    "1.1": "tsx --tsconfig tsconfig.json src/d1/part1.ts",
+    "1.2": "tsx --tsconfig tsconfig.json src/d1/part2.ts",
+    "2.1": "tsx --tsconfig tsconfig.json src/d2/part1.ts",
+    "2.2": "tsx --tsconfig tsconfig.json src/d2/part2.ts",
+    "lint": "eslint src && tsc --noEmit",
     "lint:fix": "eslint --fix src"
   },
   "type": "module",
