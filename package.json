@@ -16,6 +16,8 @@
     "2.2": "tsx --tsconfig tsconfig.json src/d2/part2.ts",
     "3.1": "tsx --tsconfig tsconfig.json src/d3/part1.ts",
     "3.2": "tsx --tsconfig tsconfig.json src/d3/part2.ts",
+    "4.1": "tsx --tsconfig tsconfig.json src/d4/part1.ts",
+    "4.2": "tsx --tsconfig tsconfig.json src/d4/part2.ts",
     "lint": "eslint src && tsc --noEmit",
     "lint:fix": "eslint --fix src"
   },
