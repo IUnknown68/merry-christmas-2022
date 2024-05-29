@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'no-restricted-syntax': 'off',
     'no-console': 'off',
+    'no-plusplus': 'off',
     'function-paren-newline': 'off',
     '@typescript-eslint/comma-dangle': ['error', {
       arrays: 'always-multiline',
